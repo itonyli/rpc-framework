@@ -2,8 +2,10 @@ package com.github.itonyli.common.entity;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 @Data
-public class Route {
+public class Route implements Serializable {
     private String  address;
     private Integer port;
 
